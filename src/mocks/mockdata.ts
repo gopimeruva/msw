@@ -2,7 +2,7 @@ export const directReports =[
     {
         directReportAssociateType: "Associate", 
         directReportEmployeeId: "111111", 
-        directReportEnterpriseUserId: "tsz977",
+        directReportEnterpriseUserId: "abc123",
         directReportFirstName: "Gopi Reddy", 
         directReportLastName: "Meruva",
         directReportLegalFullName: "Gopi Reddy Meruva", 
