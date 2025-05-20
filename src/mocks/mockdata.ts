@@ -1,13 +1,12 @@
-export const directReports =[
+export const Reports =[
     {
-        directReportAssociateType: "Associate", 
-        directReportEmployeeId: "111111", 
-        directReportEnterpriseUserId: "abc123",
-        directReportFirstName: "Gopi Reddy", 
-        directReportLastName: "Meruva",
-        directReportLegalFullName: "Gopi Reddy Meruva", 
-        directReportPreferredName: "Gopi Reddy Meruva",
-        directReportVendorName: "Cap", 
-        directReportWorkEmailAddress: "gopi@gmail.com"
+        ReportAssociateType: "Associate", 
+        ReportEmployeeId: "111111", 
+        ReportEnterpriseUserId: "abc123",
+        ReportFirstName: "Gopi Reddy", 
+        ReportLastName: "Meruva",
+        ReportLegalFullName: "Gopi Reddy Meruva", 
+        ReportPreferredName: "Gopi Reddy Meruva", 
+        ReportWorkEmailAddress: "gopi@gmail.com"
     },
 ];

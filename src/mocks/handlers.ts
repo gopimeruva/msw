@@ -1,5 +1,5 @@
 import { http, HttpResponse, HttpResponseInit, JsonBodyType } from 'msw';
-import{ directReports } from './mockdata';
+import{ Reports } from './mockdata';
 
 
 
@@ -26,5 +26,5 @@ const status500Response: HttpResponseInit ={
 // ]
 export const handlers =[
   http.get ('app.ts', () =>{ 
-    return HttpResponse.json(directReports, status200Response)}),
+    return HttpResponse.json(Reports, status200Response)}),
 ];
